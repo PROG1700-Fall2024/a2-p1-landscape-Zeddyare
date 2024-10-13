@@ -46,11 +46,6 @@ def main():
         total=grassCost+treeCost+baseCharge
     #print command for total owed for house number
     print("Total cost for house {0} is: ${1:,.2f}".format(houseNo, total))
-
-
-
-
-
     # YOUR CODE ENDS HERE
 
 main()
