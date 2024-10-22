@@ -21,6 +21,7 @@ def main():
     treeAmt=0
     houseNo=""
     grassType=""
+    grassExtra=500
 
     #greeting for program/description
     print("Thank you for choosing Prog Landscaping!\n")
@@ -41,7 +42,7 @@ def main():
     grassCost=totalSqFt*grassSqFt 
     treeCost=treeAmt*100
     if totalSqFt > 5000:
-        total=grassCost+treeCost+baseCharge+500
+        total=grassCost+treeCost+baseCharge+grassExtra
     else:
         total=grassCost+treeCost+baseCharge
     #print command for total owed for house number
